@@ -66,9 +66,38 @@ switch (true) {
     break;
 }
 
+// Generate random number between 1 and 100
+let randomNum = Math.floor(Math.random() * 100) + 1;
+if (randomNum < 50) {
+  console.log("upper");
+} else {
+  console.log("lower");
+}
 
 
 //3. loops
+//for loop 
+// - best know for counting or when number of steps are known
+// - use this wneb you know how many times you want to run your code
+
+let savings = 200;
+
+
+
+
+
+
+
+
+
+
+//for...of loop - best known for going through each item in a list
+
+//for...in loop - best known for iterrating over the properties of an object
+
+//while...loop - best known for repeating until a condition is met
+
+
 //4. objects
 //5. methods
 //6. functions
