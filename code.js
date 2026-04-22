@@ -120,15 +120,23 @@ console.log(user.length);
 
 
 //while...loop - best known for repeating until a condition is met
-let waterInBottle = 0
-while(waterInBottle < 10){
-  waterInBottle=waterInBottle + 1
+ let waterInBottle = 10
+// while(waterInBottle < 10){
+//   waterInBottle=waterInBottle + 1
 
-  //display the total liters in bottle
-  console.log(
-    "Bottle has " + waterInBottle + " liters"
-  )
-}
+//   //display the total liters in bottle
+//   console.log(
+//     "Bottle has " + waterInBottle + " liters"
+//   )
+// }
+
+// do while loop - best known for repeating until a condition changes (but it guarantees the code
+//runs at least once)
+
+do{
+  waterInBottle = waterInBottle + 1;
+  console.log("Bottle has " + waterInBottle + " liters");
+} while (waterInBottle < 10)
 
 //4. objects
 //5. methods
