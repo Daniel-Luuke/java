@@ -20,40 +20,51 @@ if (studentGender == "Female") {
   console.log(grade);
 }
 
+
+
 //2. Switch Cases
-let trafficLight = "green"
+let trafficLight = "green";
 
-switch (trafficLight){
+switch (trafficLight) {
+  //red case
+  case "red":
+    console.log("STOP");
+    break;
 
-//red case
-case "red":
- console.log("STOP");
-break;
+  //amber case
+  case "amber":
+    console.log("GET READY");
+    break;
 
-//amber case
-case "amber":
- console.log("GET READY");
-break;
+  //green case
+  case "green":
+    console.log("GO");
+    break;
 
-//green case
-case "green":
- console.log("GO");
-break;
-
-default:
+  default:
     console.log("YOU DON'T HAVE A CAR");
     break;
 }
 
 let studentScore = 81;
 
-switch(true){
-    case studentScore > 79:
-        console.log("A")
-        break;
+switch (true) {
+  case studentScore > 79:
+    console.log("A");
+    break;
+
+  case studentScore > 64:
+    console.log("B");
+    break;
+
+  case studentScore > 44:
+    console.log("D");
+    break;
+
+  default:
+    console.log("F");
+    break;
 }
-
-
 
 
 
