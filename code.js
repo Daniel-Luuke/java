@@ -80,7 +80,7 @@ if (randomNum < 50) {
 // - best know for counting or when number of steps are known
 // - use this wneb you know how many times you want to run your code
 
-let savings = 200;
+let savings = 0;
 
 for (let week = 1; week <=5; week ++){
     savings = savings + 200
