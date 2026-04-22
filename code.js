@@ -19,3 +19,5 @@ if (studentGender == "Female") {
   grade = 90;
   console.log(grade);
 }
+
+//2. Switch Cases
