@@ -1,21 +1,21 @@
 // 1. If else statements
-const studentName1 = "Sheila";
-const studentGender1 = "Female"
-const studentName2 = "James"
-const studentGender2 = "Male"
+const studentName = "Sheila";
+const studentGender = "Female"
+const studentName1 = "James"
+const studentGender1 = "Male"
 let grade;
 // first itteration
-if(studentGender2 =="Male"){
+if(studentGender1 =="Male"){
     console.log("Accept")
 }else{
     console.log("Reject")
 }
 
 // second iteration
-if(studentGender1 == "Female"){
+if(studentGender == "Female"){
     grade = 87;
     console.log(grade)
-}else if(studentGender2== "Male"){
+}else if(studentGender1 == "Male"){
     grade = 90;
     console.log(grade)
 }
