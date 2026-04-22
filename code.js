@@ -5,7 +5,7 @@ const studentName2 = "James"
 const studentGender2 = "Male"
 let grade;
 // first itteration
-if(studentGender1 =="Male"){
+if(studentGender2 =="Male"){
     console.log("Accept")
 }else{
     console.log("Reject")
