@@ -104,10 +104,31 @@ for(const name of students){
 }
 
 
+
 //for...in loop - best known for iterrating over the properties of an object
 
-//while...loop - best known for repeating until a condition is met
+const user = {
+  name: "Alex",
+  age: 36,
+  city: "Nairobi",
+  married: false,
+};
+console.log(user);
+console.log(user.name);
+console.log(user["name"]);
+console.log(user.length);
 
+
+//while...loop - best known for repeating until a condition is met
+let waterInBottle = 0
+while(waterInBottle < 10){
+  waterInBottle=waterInBottle + 1
+
+  //display the total liters in bottle
+  console.log(
+    "Bottle has " + waterInBottle + " liters"
+  )
+}
 
 //4. objects
 //5. methods
