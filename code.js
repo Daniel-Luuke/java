@@ -21,3 +21,4 @@ if (studentGender == "Female") {
 }
 
 //2. Switch Cases
+//3. loops
