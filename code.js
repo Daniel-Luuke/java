@@ -139,5 +139,20 @@ do{
 } while (waterInBottle < 10)
 
 //4. objects
+
+
+
 //5. methods
 //6. function
+
+//define the function
+//function add(7,13) {
+//  return 7 + 13
+//}
+
+// call the function
+let result = add(2,2);
+result = 2+2
+result=4
+
+//parameters and arguments
