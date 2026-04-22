@@ -82,7 +82,11 @@ if (randomNum < 50) {
 
 let savings = 200;
 
-
+for (let week = 1; week <=5; week ++){
+    savings = savings + 200
+    console.log("Week" + week + ": You now have KES" + savings
+    );
+}
 
 
 
