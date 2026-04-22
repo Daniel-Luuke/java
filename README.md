@@ -41,3 +41,12 @@ console.log(payOut);
 // 1. If else statements
 const studentName1 = "Sheila";
 console.log(studentName1)
+
+
+// Generate random number between 1 and 100
+let randomNum = Math.floor(Math.random() * 100) + 1;
+if (randomNum < 50) {
+  console.log("upper");
+} else {
+  console.log("lower");
+}
