@@ -22,3 +22,6 @@ if (studentGender == "Female") {
 
 //2. Switch Cases
 //3. loops
+//4. objects
+//5. methods
+//6. functions
