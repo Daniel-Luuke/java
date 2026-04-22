@@ -21,6 +21,42 @@ if (studentGender == "Female") {
 }
 
 //2. Switch Cases
+let trafficLight = "green"
+
+switch (trafficLight){
+
+//red case
+case "red":
+ console.log("STOP");
+break;
+
+//amber case
+case "amber":
+ console.log("GET READY");
+break;
+
+//green case
+case "green":
+ console.log("GO");
+break;
+
+default:
+    console.log("YOU DON'T HAVE A CAR");
+    break;
+}
+
+let studentScore = 81;
+
+switch(true){
+    case studentScore > 79:
+        console.log("A")
+        break;
+}
+
+
+
+
+
 //3. loops
 //4. objects
 //5. methods
