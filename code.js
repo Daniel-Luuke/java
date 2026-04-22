@@ -84,13 +84,16 @@ let savings = 0;
 
 for (let week = 1; week <=5; week ++){
     savings = savings + 200
-    console.log("Week" + week + ": You now have KES" + savings
+    console.log(
+        "Week" + week + ": You now have KES" + savings
     );
 }
 
-
-
-
+for(let i =10; i >0;i--){
+    console.log(
+        i + "seconds left"
+    )
+}
 
 
 
