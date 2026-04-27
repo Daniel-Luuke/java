@@ -12,3 +12,4 @@ if (randomNum1 === 84 && randomNum2 === 17 && randomNum3 === 2 && randomNum4 ===
     console.log("Sorry, you did not win the raffle. Better luck next time!");
 }
 
+  
