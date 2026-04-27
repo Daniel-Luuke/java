@@ -20,8 +20,6 @@
 //   console.log(grade);
 // }
 
-
-
 // //2. Switch Cases
 // let trafficLight = "green";
 
@@ -66,9 +64,8 @@
 //     break;
 // }
 
-
 // //3. loops
-// //for loop 
+// //for loop
 // // - best know for counting or when number of steps are known
 // // - use this wneb you know how many times you want to run your code
 
@@ -87,40 +84,32 @@
 //     )
 // }
 
-
-
-
 //for...of loop - best known for going through each item in a list
 
-const students = ["Alice","James","Sheila","Daniel"]
+// const students = ["Alice", "James", "Sheila", "Daniel"];
 // console.log(students)
 // console.log(students[0])
 // console.log(students.length)
 
-for(const name of students){
-  console.log(
-    "Hello, " + name + "!"
-  )
-}
-
+// for (const name of students) {
+//   console.log("Hello, " + name + "!");
 
 
 //for...in loop - best known for iterrating over the properties of an object
 
-const user = {
-  name: "Alex",
-  age: 36,
-  city: "Nairobi",
-  married: false,
-};
-console.log(user);
-console.log(user.name);
-console.log(user["name"]);
-console.log(user.length);
-
+// const user = {
+//   name: "Alex",
+//   age: 36,
+//   city: "Nairobi",
+//   married: false,
+// };
+// console.log(user);
+// console.log(user.name);
+// console.log(user["name"]);
+// console.log(user.length);
 
 //while...loop - best known for repeating until a condition is met
- let waterInBottle = 10
+// let waterInBottle = 10;
 // while(waterInBottle < 10){
 //   waterInBottle=waterInBottle + 1
 
@@ -133,14 +122,12 @@ console.log(user.length);
 // do while loop - best known for repeating until a condition changes (but it guarantees the code
 //runs at least once)
 
-do{
-  waterInBottle = waterInBottle + 1;
-  console.log("Bottle has " + waterInBottle + " liters");
-} while (waterInBottle < 10)
+// do {
+//   waterInBottle = waterInBottle + 1;
+//   console.log("Bottle has " + waterInBottle + " liters");
+// } while (waterInBottle < 10);
 
 //4. objects
-
-
 
 //5. methods
 //6. function
@@ -150,9 +137,14 @@ do{
 //  return 7 + 13
 //}
 
-// call the function
-let result = add(2,2);
-result = 2+2
-result=4
+// // call the function
+// let result = add(2, 2);
+// result = 2 + 2;
+// result = 4;
 
 //parameters and arguments
+
+// Logical expression to check if a number is between 10 and 50
+let number = Math.floor(Math.random() * 100) + 1; // You can change this number to test
+let isBetween = number >= 10 && number <= 50;
+console.log(isBetween); // This will display true or false
